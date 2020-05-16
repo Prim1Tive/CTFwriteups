@@ -3,6 +3,9 @@ I don't care about your flags...
 ```how to OWN this machine```
 
 # Enumeration:
+
+___
+### nmap
 ``` bash
 nmap -sV -sC [IP]
 ```
@@ -36,6 +39,7 @@ PORT   STATE SERVICE
 
 i dont know why this http port wont show on my "advance scan" but good practis is to scan all ports anyway...
  ___
+### curl
 ```
 curl 10.10.120.193
 ```
@@ -209,6 +213,8 @@ now we can see the /etc/passwd file infront of us and see what inside it.
 inside it there's a strange user with a hash (comment) sign "#falconfeast:rootpassword"
 lets try ssh then...
  
+___
+### socat
 ```bash
 ssh falconfeast@10.10.120.193
 ```
