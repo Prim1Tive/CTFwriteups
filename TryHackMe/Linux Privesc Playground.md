@@ -91,6 +91,6 @@ CMD: whoami
 0
 
 
-now we got ourself a loop and created our-self an easy root shell!
+now we go a loop and created our-self an easy root shell!
 
 # Hye! if you done the bonus why not get in to a python course?
