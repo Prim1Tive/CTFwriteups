@@ -2,7 +2,7 @@
 ## This is my first Write-up but a simple one to preform.
 
 
-### 1.lets get in the machine and open python 
+### 1. lets get in the machine and open python 
 
 SSH Credentials - user:password
 
