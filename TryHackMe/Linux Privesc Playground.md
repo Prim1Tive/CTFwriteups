@@ -1,6 +1,8 @@
 # Linux Privesc Playground - Try Hack Me - https://tryhackme.com/room/privescplayground
 ## This is my first Write-up but a simple one to preform.
-### lets get in the machine and open python 
+
+
+### 1.lets get in the machine and open python 
 
 SSH Credentials - user:password
 
@@ -40,7 +42,7 @@ os.system("whoami")
 
 note you can press the arrow-key-up button to toggle previous commands exactly like a regular shell
 
-### Get The Flag!
+### 2. Get The Flag!
 to get the flag we will do the following
 
 ```python
