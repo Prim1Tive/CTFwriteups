@@ -412,7 +412,6 @@ for the root
 
 
 ##### that is possible as we do have root premission somewere on the www-data user (probably on the cat command) :P 
-
 ##### but i want to OWN every machine that i can, so this is not enough for me...
  
 # creds
