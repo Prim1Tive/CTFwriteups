@@ -94,3 +94,5 @@ CMD: whoami
 now we go a loop and created our-self an easy root shell!
 
 # Hye! if you done the bonus why not get in to a python course?
+you can do so much in python, i recommanding this tutorial by microsoft as it's easy and fun to watch (as mach as it can be...)
+https://www.youtube.com/watch?v=eHxoh9Rrtdk
