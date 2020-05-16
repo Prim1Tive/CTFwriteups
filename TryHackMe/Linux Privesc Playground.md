@@ -57,7 +57,7 @@ do you want to make your life easyer? (that's what python ment for)
  
 > def A(i):
 
->	os.system(i)
+>   os.system(i)
 
 press return key (enter)
 
@@ -73,8 +73,11 @@ root
 # Even better:
 
 while True:
-	i = input('CMD: ')
-	os.system(i)
+
+   i = input('CMD: ')
+
+   os.system(i)
+
 press return key (enter)
 
 '''
