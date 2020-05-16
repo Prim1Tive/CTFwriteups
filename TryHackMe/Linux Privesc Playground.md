@@ -59,15 +59,19 @@ press return key (enter)
 
 now all we need to do is A("YOUR COMMAND GOES HERE")
 
->>> A('whoami')
-| root
-| 0
+A('whoami')
+'''
+root
+0
+'''
+
+"test"
 
 # Even better:
 
->>> while True:
-...     i = input('CMD: ')
-...     os.system(i)
+while True:
+	i = input('CMD: ')
+	os.system(i)
 press return key (enter)
 
 '''
