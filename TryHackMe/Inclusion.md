@@ -411,9 +411,9 @@ curl http://10.10.120.193/article?name=/../../../../../../../../../../root/root.
 for the root
 
 
-that is possible as we do have root premission somewere on the www-data user (probably on the cat command) :P 
+### that is possible as we do have root premission somewere on the www-data user (probably on the cat command) :P 
 
-but i want to OWN every machine that i can, so this is not enough for me...
+### but i want to OWN every machine that i can, so this is not enough for me...
  
 # creds
 falconfeast:rootpassword
