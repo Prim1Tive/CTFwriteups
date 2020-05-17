@@ -248,11 +248,9 @@ we are part of the groups "adm cdrom sudo dip plugdev lxd lpadmin sambashare"
 and we do have a permission to sudo on the socat program (very similar to netcat but with a different syntax)
  
 a quick search on the web and i found this line of code: "socat TCP4-LISTEN:4444,reuseaddr  OPEN:[$file]"
-(alternatively we can use this line to get a Shell and OWN the machine "sudo socat TCP4-LISTEN:4444,reuseaddr  SYSTEM:/bin/sh")
-
 <details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
+  <summary>Own this machine right now and not follow the writeup </summary>
+   alternatively we can use this line to get a Shell and OWN the machine "sudo socat TCP4-LISTEN:4444,reuseaddr  SYSTEM:/bin/sh"
 </details>
 
 ### socat TCP4-LISTEN:4444,reuseaddr  OPEN:[$file]
