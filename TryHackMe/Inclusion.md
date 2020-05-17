@@ -234,12 +234,15 @@ groups
 ```bash
 sudo -l
 ```
->Matching Defaults entries for falconfeast on inclusion:
+```
+Matching Defaults entries for falconfeast on inclusion:
 >   env_reset, mail_badpass,
->   secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin 
+secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin 
 >User falconfeast may run the following commands on inclusion:
->   (root) NOPASSWD: /usr/bin/socat
- 
+(root) NOPASSWD: /usr/bin/socat
+```
+
+
 ok so we do have extended permissions.
 we are part of the groups "adm cdrom sudo dip plugdev lxd lpadmin sambashare"
 and we do have a permission to sudo on the socat program (very similar to netcat but with a different syntax)
