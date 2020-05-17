@@ -421,9 +421,13 @@ for the root
 ##### but i want to OWN every machine that i can, so this is not enough for me...
  
 # creds
+```
 falconfeast:rootpassword
- 
+```
  
 # task 1
->user flag: 60989655118397345799
->root flag: 42964104845495153909
+>user flag: 609896551*8397345799
+
+>root flag: 42964104845495*53909
+
+1
