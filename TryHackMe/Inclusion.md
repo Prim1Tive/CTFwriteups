@@ -250,7 +250,7 @@ a quick search on the web and i found this line of code: "socat TCP4-LISTEN:4444
 ### socat TCP4-LISTEN:4444,reuseaddr  OPEN:[$file]
 >TCP4-LISTEN =            use ipv4 listiner
 
->4444 =                   our port (similarly to netcat)
+>4444 =                   our port (Just like netcat)
 
 >reuseaddr =              use this user machine ip address
 
