@@ -1,1 +1,1 @@
-![Tryhackme badge](<script src="https://tryhackme.com/badge/19124"></script>)
+<img src="https://tryhackme-badges.s3.amazonaws.com/Prim1Tive.png" alt="TryHackMe">
