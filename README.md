@@ -1,1 +1,1 @@
-![Tryhackme badge](https://tryhackme-badges.s3.amazonaws.com/Prim1Tive.png)
+![Tryhackme badge](https://tryhackme.com/badge/19124)
