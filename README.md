@@ -1,1 +1,1 @@
-![Tryhackme badge](https://tryhackme.com/badge/19124)
+![Tryhackme badge](<script src="https://tryhackme.com/badge/19124"></script>)
