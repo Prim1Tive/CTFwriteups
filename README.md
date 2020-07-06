@@ -1,2 +1,1 @@
-https://tryhackme.com/p/Prim1Tive
-
+<script src="https://tryhackme.com/badge/19124"></script>
