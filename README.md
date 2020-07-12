@@ -6,7 +6,7 @@
 Carnage     Linux
 Lion        Linux
 Hackers     Linux
-Fortune     Linux
+<herf='https://github.com/Prim1Tive/CTFwriteups/blob/master/TryHackMe/Inclusion.md'>Fortune</herf>     Linux
 Offline     Windows
 Panda       Linux
 Space Jam   Linux
