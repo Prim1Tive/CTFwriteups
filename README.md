@@ -2,23 +2,23 @@
 
 2020 - July
 
-> Carnage     Linux
+>Carnage     Linux
 
-Lion        Linux
+>Lion        Linux
 
-Hackers     Linux
+>Hackers     Linux
 
 >[Fortune](https://github.com/Prim1Tive/CTFwriteups/blob/master/TryHackMe/KOTH/Fortune.md "Fortune - TryHackMe")     Linux
 
-Offline     Windows
+>Offline     Windows
 
-Panda       Linux
+>Panda       Linux
 
-Space Jam   Linux
+>Space Jam   Linux
 
-Food        Linux
+>Food        Linux
 
-Production  Linux
+>Production  Linux
 
-Shrek       Linux
+>Shrek       Linux
 
