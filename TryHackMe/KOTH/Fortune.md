@@ -47,7 +47,6 @@ unzip test.zip
 unzip test.zip 
 Archive:  test.zip
 [test.zip] creds.txt password: 
-replace creds.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
  extracting: creds.txt               
 ```
 
