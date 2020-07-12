@@ -1,4 +1,4 @@
-Fortune.THM - Koth 
+# Fortune.THM - Koth 
 
 as koth is an intensive competition on flags and king declerations it is naturaly a good practice to scan a bunch of things at ones. some what of a fuzzing for entries... in real life this type of stratagy is very loud so don't mimic anything from here this is nat practical at all
 
