@@ -2,13 +2,13 @@
 
 2020 - July
 
-Carnage     Linux
+> Carnage     Linux
 
 Lion        Linux
 
 Hackers     Linux
 
-[Fortune](https://github.com/Prim1Tive/CTFwriteups/blob/master/TryHackMe/KOTH/Fortune.md "Fortune - TryHackMe")     Linux
+>[Fortune](https://github.com/Prim1Tive/CTFwriteups/blob/master/TryHackMe/KOTH/Fortune.md "Fortune - TryHackMe")     Linux
 
 Offline     Windows
 
