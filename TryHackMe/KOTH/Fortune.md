@@ -58,7 +58,7 @@ cat creds.txt
 we found a use named "fortuna" and his password "**********"
 
 ```bash
-ssh fortuna@$ip
+ssh fortuna@fortune.thm
 password:
 ```
 
