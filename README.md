@@ -3,14 +3,14 @@
 2020 - July
 
 ```HTML
-Carnage	     Linux
-Lion	       Linux
-Hackers	     Linux
-Fortune	     Linux
-Offline	     Windows
-Panda	       Linux
+Carnage     Linux
+Lion      Linux
+Hackers     Linux
+Fortune     Linux
+Offline     Windows
+Panda     Linux
 Space Jam    Linux
-Food	       Linux
-Production	 Linux
-Shrek	       Linux
+Food      Linux
+Production  Linux
+Shrek     Linux
 ```
