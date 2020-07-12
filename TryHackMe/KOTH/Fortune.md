@@ -84,10 +84,10 @@ and it works just fine Although I think a stable shell can be helpful here and i
 
 ## method b if password has changed / we are no longer a sudo user
 
+try to do somthing like
+
 ```bash
 cd /home
-
-try to do somthing like
 while True; do bash ./lucky_shell
 ```
 
