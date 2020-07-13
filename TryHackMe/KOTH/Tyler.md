@@ -5,9 +5,9 @@
 # enum
 
 ```bash
-nmap lion.thm -p- 
-nmap lion.thm -sV -sC 
-nmap lion.thm 
+nmap tyler.thm -p- 
+nmap tyler.thm -sV -sC 
+nmap tyler.thm 
 ```
 
 we got 2 http servers, 80 8080
