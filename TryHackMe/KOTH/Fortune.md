@@ -1,7 +1,7 @@
 # Fortune.THM - Koth 
 
-as koth is an intensive competition on flags and king declerations it is naturaly a good practice to scan a bunch of things at ones. some what of a fuzzing for entries... in real life this type of stratagy is very loud so don't mimic anything from here this is nat practical at all
-
+<!---as KOTH is an intensive competition on flags and king declerations it is naturaly a good practice to scan a bunch of things at ones. some what of a fuzzing for entries... in real life this type of stratagy is very 'loud', so don't mimic anything from here this is not practical at all
+--->
 ### enum
 ```bash
 nmap fortune.thm -p- 
@@ -47,7 +47,6 @@ unzip test.zip
 unzip test.zip 
 Archive:  test.zip
 [test.zip] creds.txt password: 
-replace creds.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
  extracting: creds.txt               
 ```
 
