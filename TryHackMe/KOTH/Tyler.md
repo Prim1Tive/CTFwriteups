@@ -78,7 +78,7 @@ smb: \>
 ```
 
 so we got a flag but still we are far off...
-in the alert.txt file we get some code that i think  its a rabit hole..
+in the alert.txt file we get some code that i think  its a rabbit hole..
 
 ### port 6555
 
@@ -108,7 +108,7 @@ drwx------  2 root root  61 Mar 25 15:23 .ssh
 ```
 
 what? no king.txt?
-so this is a "rabit hole" somewhat and this shell is seperated from the main machine somehow
+so this is a "rabbit hole" somewhat and this shell is seperated from the main machine somehow
 I tried to enumerate and see if i can gather some info on the main machine
 
 ```bash
@@ -119,7 +119,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+0qTaj8PluXd4pyYNMGPLbP2ZTwh4I8hVCNnkzaL7
 ```
 
 ok! we got a user "tdurden" and his id_rsa files
-so from a state that i thought that this is defenetly a rabithole im now sure that this is the way to go.
+so from a state that i thought that this is defenetly a rabbithole im now sure that this is the way to go.
 
 I'll copy id_rsa to my own machine and try to login
 ```bash
