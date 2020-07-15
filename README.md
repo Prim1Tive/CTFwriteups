@@ -24,3 +24,4 @@
 
 >Shrek       Linux
 
+>[Tyler](https://github.com/Prim1Tive/CTFwriteups/blob/master/TryHackMe/KOTH/Tyler.md "Tyler - TryHackMe")      Linux
